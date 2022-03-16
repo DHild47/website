@@ -1,0 +1,85 @@
+body {
+    font-family:sans-serif;
+    background-color:#1c7f14;
+  }
+
+h1 {
+    color:#114706;
+}
+
+img {
+    float:left;
+    width:32%;
+    height:auto;
+}
+
+p {
+    color:#319244;
+    font-size: 2vw;
+    font-size: 4vmin;
+}
+.subp {
+    color:#5b9639;
+    font-size: 1.5vw;
+    font-size: 3vmin;
+}
+
+.subdiv {
+    background-color: #72a740;
+    font-family: Arial, Helvetica, sans-serif;
+    position: center;
+    width: 91%;
+    border: 15px solid #077c99;
+    padding: 30px;
+    margin: 20px;
+}
+  
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
